@@ -3,145 +3,182 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nick Carlisi</title>
+    <title>Second Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/a611203429.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav id="navbar">
-      <p>Nick Carlisi</p>
-      <ul>
-        <li><a href="#welcome-section">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#social-links">Contact</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav>
+        <div class="name">
+          <a href="#">Nick Carlisi</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
 
-    <section id="welcome-section">
-      <h1>Hi, I'm Nick.</h1>
-      <h2>A Web Developer</h2>
-      <div id="skills">
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-css3-alt"></i>
-        <i class="fab fa-js"></i>
-        <i class="fab fa-react"></i>
-        <i class="fab fa-node-js"></i>
-        <i class="fab fa-git-alt"></i>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="about">
+      <div class="container">
+        <h1>Hi, I'm <span>Nick</span></h1>
+          <h2>A Web Developer</h2>
+          <div id="skills">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-react"></i>
+            <i class="fab fa-node-js"></i>
+            <i class="fab fa-git-alt"></i>
+          </div>
       </div>
-    </section>
+    </div>
 
-    <section id="projects" class="projects-section">
-      <h2>Some of my Projects</h2>
+      <div id="projects" class="projects-section">
+        <div class="container">
+          <h2>Some of My Projects</h2>
+          <div class="projects-grid">
+            <a
+              href="https://codepen.io/nickcarlisi/full/rNMvrBj"
+              target="_blank"
+              class="project project-tile"
+            >
+              <img
+                class="project-image"
+                src="https://lh3.googleusercontent.com/jSP3bQo3E54g1JRu_O-cvv_XpUPx8QfAL7c1V2UiaHP4KGUWKGAIRgOLhXiVCo7Y0CJmKLyHfWgLrshv-1wLo6aYZb0PgjDh-Sk1RMS2U_kHVxoeE9docYEDxotdk-VTTiRxyq2uNWnMBN5L6ezxlAi7CURky9fYjEwb72pkDAhHAz3NJy4ta92bVJH5UFdAEAE--p9uiDratS-dfinqOm_5SUETKevQpfHjojaK4N6WobUpGYe7ai7yTWBt4ARqSNqRvXEqyqM25mFrQkUsewPo7a90qmGjayc4XPgJ-XZ1eBhHcjzKUFs5lGl1OOcMlWacMleOp7OZzHmU1i7IpsdXhmr6zkwYwEDAeHdANbcsvMQCEfbxjsOhCOwzvsxUgvssW2BLIh-J04pi3jq928kO7eFFK_bD2CecydHyfc6A-vahYKycwIytsYXqNdaEBC15fUKGM0GcrzpnEmj4u-0h3OebIdB0X2B7_NoE6RARiGj2ukHVESDi7wndS9ZggQ54o5JSC70uXs9MmbsBKxE3Uvyt_ZCQmOF60lQ9chVrlMl3xW40ewSl24CIGrifzZRHZ2tOLyBxb1hAnxmW9vmg5cudomSoKIj31xekHKgk3-4f_ZJOwTODSz3E-bKTDqIUgFfwvEOq0e7nOMKR5exshIcwqm-1-68-NDIbsDQVa3GcOxF_iviHCc24=w3114-h1752-no?authuser=0"
+                alt="project"
+              />
 
-      <div class="projects-grid">
-        <a
-          href="https://codepen.io/nickcarlisi/full/rNMvrBj"
-          target="_blank"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://lh3.googleusercontent.com/jSP3bQo3E54g1JRu_O-cvv_XpUPx8QfAL7c1V2UiaHP4KGUWKGAIRgOLhXiVCo7Y0CJmKLyHfWgLrshv-1wLo6aYZb0PgjDh-Sk1RMS2U_kHVxoeE9docYEDxotdk-VTTiRxyq2uNWnMBN5L6ezxlAi7CURky9fYjEwb72pkDAhHAz3NJy4ta92bVJH5UFdAEAE--p9uiDratS-dfinqOm_5SUETKevQpfHjojaK4N6WobUpGYe7ai7yTWBt4ARqSNqRvXEqyqM25mFrQkUsewPo7a90qmGjayc4XPgJ-XZ1eBhHcjzKUFs5lGl1OOcMlWacMleOp7OZzHmU1i7IpsdXhmr6zkwYwEDAeHdANbcsvMQCEfbxjsOhCOwzvsxUgvssW2BLIh-J04pi3jq928kO7eFFK_bD2CecydHyfc6A-vahYKycwIytsYXqNdaEBC15fUKGM0GcrzpnEmj4u-0h3OebIdB0X2B7_NoE6RARiGj2ukHVESDi7wndS9ZggQ54o5JSC70uXs9MmbsBKxE3Uvyt_ZCQmOF60lQ9chVrlMl3xW40ewSl24CIGrifzZRHZ2tOLyBxb1hAnxmW9vmg5cudomSoKIj31xekHKgk3-4f_ZJOwTODSz3E-bKTDqIUgFfwvEOq0e7nOMKR5exshIcwqm-1-68-NDIbsDQVa3GcOxF_iviHCc24=w3114-h1752-no?authuser=0"
-            alt="project"
-          />
+              <p class="project-title">Univox Compac-Piano</p>
+            </a>
 
-          <p class="project-title">Univox Compac-Piano</p>
-        </a>
+            <a
+              href="https://codepen.io/nickcarlisi/full/rNMvrBj"
+              target="_blank"
+              class="project project-tile"
+            >
+              <img
+                class="project-image"
+                src="https://lh3.googleusercontent.com/OqKil_G8kRxs9EbB-26PUCT1PB44ueho0pm1Kn77rDDlg7bLLOpAD-kROdWmtsnNBBlmw9X2xPzL07SP79tg-VqtmCojdJVsYM_-Wo6nWghazMXHHNFUZwmL-G8Uj4CeNuRsn5NMEGuUNSRc6imWnQmsb9_YQa8PykLTORk0xDdFIqzxoqAaWABKXNrqJLKi7a3Utt5JslbsFN-J5vPd9j0gpuYNYVfTwAobMtWhpGI0FzhjR221TgjREbFkkGbi3gMkPW7_UwzdEroxOPKh2CEpEyEM1riE85q_5g7ubOdMtKqsJbCTpaQUAx64OSKUxLLQ1Ir5ej7oXYVn41OsT57DWJ65X2738iLDeRhPQBSRZqqNjgfhTCGiG9bzAv0cQFfLzb_T8BJGSEjDb-NsQJZOP3CUkKUCCPQY2quHukXGgZyIrSH5pvawOeZuPVJq4TvN5GJP81TZ9raT8ZWGUU9bWtyfPUB6QfLyOu8eX-4JFvDVlzgRUTxMAlbKPyOimREscoZAymX2YFP8BrMvPTCV70VGeufAyG6tGTcFU7Or4buH3L2bZPEfEyL7HC5UyhRGhtB5Q-dc3RF5JmWyNzJmIllBLGiNuodHOkfLofPvHbz1KjCjznNcPBmUHI3Trrlr1y8BWEZq3Eoy_e5DVs7MkDWRFgeD1F9gmwA4KQHlBmG_RYNG1qUx5Zo5=w3258-h1832-no?authuser=0"
+                alt="project"
+              />
 
-        <a
-          href="https://codepen.io/nickcarlisi/full/rNMvrBj"
-          target="_blank"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://lh3.googleusercontent.com/OqKil_G8kRxs9EbB-26PUCT1PB44ueho0pm1Kn77rDDlg7bLLOpAD-kROdWmtsnNBBlmw9X2xPzL07SP79tg-VqtmCojdJVsYM_-Wo6nWghazMXHHNFUZwmL-G8Uj4CeNuRsn5NMEGuUNSRc6imWnQmsb9_YQa8PykLTORk0xDdFIqzxoqAaWABKXNrqJLKi7a3Utt5JslbsFN-J5vPd9j0gpuYNYVfTwAobMtWhpGI0FzhjR221TgjREbFkkGbi3gMkPW7_UwzdEroxOPKh2CEpEyEM1riE85q_5g7ubOdMtKqsJbCTpaQUAx64OSKUxLLQ1Ir5ej7oXYVn41OsT57DWJ65X2738iLDeRhPQBSRZqqNjgfhTCGiG9bzAv0cQFfLzb_T8BJGSEjDb-NsQJZOP3CUkKUCCPQY2quHukXGgZyIrSH5pvawOeZuPVJq4TvN5GJP81TZ9raT8ZWGUU9bWtyfPUB6QfLyOu8eX-4JFvDVlzgRUTxMAlbKPyOimREscoZAymX2YFP8BrMvPTCV70VGeufAyG6tGTcFU7Or4buH3L2bZPEfEyL7HC5UyhRGhtB5Q-dc3RF5JmWyNzJmIllBLGiNuodHOkfLofPvHbz1KjCjznNcPBmUHI3Trrlr1y8BWEZq3Eoy_e5DVs7MkDWRFgeD1F9gmwA4KQHlBmG_RYNG1qUx5Zo5=w3258-h1832-no?authuser=0"
-            alt="project"
-          />
+              <p class="project-title">MyRecordCollection App</p>
+            </a>
 
-          <p class="project-title">MyRecordCollection App</p>
-        </a>
+            <a
+              href="https://codepen.io/nickcarlisi/pen/poEZwMN"
+              target="_blank"
+              class="project project-tile"
+            >
+              <img
+                class="project-image"
+                src="https://lh3.googleusercontent.com/kUS9akSXXOHLj3Rtu3w-RHN5jNT7ds9YApW3cJBZNYb2UwrzYqmtfNVh2yzGy4UocXGL_QlcHDhFsa98shvN99pXhrtyDFfXHEb21wkQZNxYRLplkzvRMs7eZlUxhefIiD-JJYuuhhZO5tTx0BZybNKylPlZwh9kFnrEEisE0pBMP4aS5b1vZo0Xyd1oiNuiiTwTT-fms3WTWcbo7qXdWnnSHyezT09L9DW4zjgZXKMjXwfoANmvfiav7By8aIr1T2q5FKTDO6Bw3CwEaGdAUDyy1eRLFXWPp-v5oG5fAiN3KUi1WtfoBvgJnBwf767yyLd-doIBQDnqlbOD8tf8UB6XczJf4s9gwWfCiIffWspivdMBhuSN6-rIeX03vbavRO9YHPjHLkKyNBWDH2Svom2qJMtQllutK8rhSx5yTPyOF2ir3EYaW3KDs7oUJVa6y82Ibe5NAH3dmO50AZFX2_1ekN-zAadupUQ_9lSp6BjFxOp9XKUWU8Qja5KBtCLl5RV3GoZM4XgS9_RehH6wtbNqxPVwiN2TumLc1xbInWRiztpl0hPKaa61tS_SoRU1prOm14RjljOgfJuk2YPLnkcxjwysOI77bpprcmg7N50C0SBuOe6vzJsMmb6L4hyT0g1kPQlO9Yhyl0y5-kd2BhMgf6urNe4usRRvICz_06S4-w5bMXmgqCsLvxTY=w3021-h1699-no?authuser=0"
+                alt="project"
+              />
 
-        <a
-          href="https://codepen.io/nickcarlisi/pen/poEZwMN"
-          target="_blank"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://lh3.googleusercontent.com/kUS9akSXXOHLj3Rtu3w-RHN5jNT7ds9YApW3cJBZNYb2UwrzYqmtfNVh2yzGy4UocXGL_QlcHDhFsa98shvN99pXhrtyDFfXHEb21wkQZNxYRLplkzvRMs7eZlUxhefIiD-JJYuuhhZO5tTx0BZybNKylPlZwh9kFnrEEisE0pBMP4aS5b1vZo0Xyd1oiNuiiTwTT-fms3WTWcbo7qXdWnnSHyezT09L9DW4zjgZXKMjXwfoANmvfiav7By8aIr1T2q5FKTDO6Bw3CwEaGdAUDyy1eRLFXWPp-v5oG5fAiN3KUi1WtfoBvgJnBwf767yyLd-doIBQDnqlbOD8tf8UB6XczJf4s9gwWfCiIffWspivdMBhuSN6-rIeX03vbavRO9YHPjHLkKyNBWDH2Svom2qJMtQllutK8rhSx5yTPyOF2ir3EYaW3KDs7oUJVa6y82Ibe5NAH3dmO50AZFX2_1ekN-zAadupUQ_9lSp6BjFxOp9XKUWU8Qja5KBtCLl5RV3GoZM4XgS9_RehH6wtbNqxPVwiN2TumLc1xbInWRiztpl0hPKaa61tS_SoRU1prOm14RjljOgfJuk2YPLnkcxjwysOI77bpprcmg7N50C0SBuOe6vzJsMmb6L4hyT0g1kPQlO9Yhyl0y5-kd2BhMgf6urNe4usRRvICz_06S4-w5bMXmgqCsLvxTY=w3021-h1699-no?authuser=0"
-            alt="project"
-          />
+              <p class="project-title">Resonars Band Website</p>
+            </a>
 
-          <p class="project-title">Resonars Band Website</p>
-        </a>
+            <a
+              href="https://codepen.io/nickcarlisi/full/rNMvrBj"
+              target="_blank"
+              class="project project-tile"
+            >
+              <img
+                class="project-image"
+                src="https://lh3.googleusercontent.com/OqKil_G8kRxs9EbB-26PUCT1PB44ueho0pm1Kn77rDDlg7bLLOpAD-kROdWmtsnNBBlmw9X2xPzL07SP79tg-VqtmCojdJVsYM_-Wo6nWghazMXHHNFUZwmL-G8Uj4CeNuRsn5NMEGuUNSRc6imWnQmsb9_YQa8PykLTORk0xDdFIqzxoqAaWABKXNrqJLKi7a3Utt5JslbsFN-J5vPd9j0gpuYNYVfTwAobMtWhpGI0FzhjR221TgjREbFkkGbi3gMkPW7_UwzdEroxOPKh2CEpEyEM1riE85q_5g7ubOdMtKqsJbCTpaQUAx64OSKUxLLQ1Ir5ej7oXYVn41OsT57DWJ65X2738iLDeRhPQBSRZqqNjgfhTCGiG9bzAv0cQFfLzb_T8BJGSEjDb-NsQJZOP3CUkKUCCPQY2quHukXGgZyIrSH5pvawOeZuPVJq4TvN5GJP81TZ9raT8ZWGUU9bWtyfPUB6QfLyOu8eX-4JFvDVlzgRUTxMAlbKPyOimREscoZAymX2YFP8BrMvPTCV70VGeufAyG6tGTcFU7Or4buH3L2bZPEfEyL7HC5UyhRGhtB5Q-dc3RF5JmWyNzJmIllBLGiNuodHOkfLofPvHbz1KjCjznNcPBmUHI3Trrlr1y8BWEZq3Eoy_e5DVs7MkDWRFgeD1F9gmwA4KQHlBmG_RYNG1qUx5Zo5=w3258-h1832-no?authuser=0"
+                alt="project"
+              />
 
-        <a
-          href="https://codepen.io/nickcarlisi/full/rNMvrBj"
-          target="_blank"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://lh3.googleusercontent.com/OqKil_G8kRxs9EbB-26PUCT1PB44ueho0pm1Kn77rDDlg7bLLOpAD-kROdWmtsnNBBlmw9X2xPzL07SP79tg-VqtmCojdJVsYM_-Wo6nWghazMXHHNFUZwmL-G8Uj4CeNuRsn5NMEGuUNSRc6imWnQmsb9_YQa8PykLTORk0xDdFIqzxoqAaWABKXNrqJLKi7a3Utt5JslbsFN-J5vPd9j0gpuYNYVfTwAobMtWhpGI0FzhjR221TgjREbFkkGbi3gMkPW7_UwzdEroxOPKh2CEpEyEM1riE85q_5g7ubOdMtKqsJbCTpaQUAx64OSKUxLLQ1Ir5ej7oXYVn41OsT57DWJ65X2738iLDeRhPQBSRZqqNjgfhTCGiG9bzAv0cQFfLzb_T8BJGSEjDb-NsQJZOP3CUkKUCCPQY2quHukXGgZyIrSH5pvawOeZuPVJq4TvN5GJP81TZ9raT8ZWGUU9bWtyfPUB6QfLyOu8eX-4JFvDVlzgRUTxMAlbKPyOimREscoZAymX2YFP8BrMvPTCV70VGeufAyG6tGTcFU7Or4buH3L2bZPEfEyL7HC5UyhRGhtB5Q-dc3RF5JmWyNzJmIllBLGiNuodHOkfLofPvHbz1KjCjznNcPBmUHI3Trrlr1y8BWEZq3Eoy_e5DVs7MkDWRFgeD1F9gmwA4KQHlBmG_RYNG1qUx5Zo5=w3258-h1832-no?authuser=0"
-            alt="project"
-          />
+              <p class="project-title">Project 4</p>
+            </a>
 
-          <p class="project-title">Project 4</p>
-        </a>
+            <a
+              href="https://codepen.io/nickcarlisi/full/rNMvrBj"
+              target="_blank"
+              class="project project-tile"
+            >
+              <img
+                class="project-image"
+                src="https://lh3.googleusercontent.com/jSP3bQo3E54g1JRu_O-cvv_XpUPx8QfAL7c1V2UiaHP4KGUWKGAIRgOLhXiVCo7Y0CJmKLyHfWgLrshv-1wLo6aYZb0PgjDh-Sk1RMS2U_kHVxoeE9docYEDxotdk-VTTiRxyq2uNWnMBN5L6ezxlAi7CURky9fYjEwb72pkDAhHAz3NJy4ta92bVJH5UFdAEAE--p9uiDratS-dfinqOm_5SUETKevQpfHjojaK4N6WobUpGYe7ai7yTWBt4ARqSNqRvXEqyqM25mFrQkUsewPo7a90qmGjayc4XPgJ-XZ1eBhHcjzKUFs5lGl1OOcMlWacMleOp7OZzHmU1i7IpsdXhmr6zkwYwEDAeHdANbcsvMQCEfbxjsOhCOwzvsxUgvssW2BLIh-J04pi3jq928kO7eFFK_bD2CecydHyfc6A-vahYKycwIytsYXqNdaEBC15fUKGM0GcrzpnEmj4u-0h3OebIdB0X2B7_NoE6RARiGj2ukHVESDi7wndS9ZggQ54o5JSC70uXs9MmbsBKxE3Uvyt_ZCQmOF60lQ9chVrlMl3xW40ewSl24CIGrifzZRHZ2tOLyBxb1hAnxmW9vmg5cudomSoKIj31xekHKgk3-4f_ZJOwTODSz3E-bKTDqIUgFfwvEOq0e7nOMKR5exshIcwqm-1-68-NDIbsDQVa3GcOxF_iviHCc24=w3114-h1752-no?authuser=0"
+                alt="project"
+              />
 
-        <a
-          href="https://codepen.io/nickcarlisi/full/rNMvrBj"
-          target="_blank"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://lh3.googleusercontent.com/jSP3bQo3E54g1JRu_O-cvv_XpUPx8QfAL7c1V2UiaHP4KGUWKGAIRgOLhXiVCo7Y0CJmKLyHfWgLrshv-1wLo6aYZb0PgjDh-Sk1RMS2U_kHVxoeE9docYEDxotdk-VTTiRxyq2uNWnMBN5L6ezxlAi7CURky9fYjEwb72pkDAhHAz3NJy4ta92bVJH5UFdAEAE--p9uiDratS-dfinqOm_5SUETKevQpfHjojaK4N6WobUpGYe7ai7yTWBt4ARqSNqRvXEqyqM25mFrQkUsewPo7a90qmGjayc4XPgJ-XZ1eBhHcjzKUFs5lGl1OOcMlWacMleOp7OZzHmU1i7IpsdXhmr6zkwYwEDAeHdANbcsvMQCEfbxjsOhCOwzvsxUgvssW2BLIh-J04pi3jq928kO7eFFK_bD2CecydHyfc6A-vahYKycwIytsYXqNdaEBC15fUKGM0GcrzpnEmj4u-0h3OebIdB0X2B7_NoE6RARiGj2ukHVESDi7wndS9ZggQ54o5JSC70uXs9MmbsBKxE3Uvyt_ZCQmOF60lQ9chVrlMl3xW40ewSl24CIGrifzZRHZ2tOLyBxb1hAnxmW9vmg5cudomSoKIj31xekHKgk3-4f_ZJOwTODSz3E-bKTDqIUgFfwvEOq0e7nOMKR5exshIcwqm-1-68-NDIbsDQVa3GcOxF_iviHCc24=w3114-h1752-no?authuser=0"
-            alt="project"
-          />
+              <p class="project-title">Project 5</p>
+            </a>
 
-          <p class="project-title">Project 5</p>
-        </a>
+            <a
+              href="https://codepen.io/nickcarlisi/full/rNMvrBj"
+              target="_blank"
+              class="project project-tile"
+            >
+              <img
+                class="project-image"
+                src="https://lh3.googleusercontent.com/OqKil_G8kRxs9EbB-26PUCT1PB44ueho0pm1Kn77rDDlg7bLLOpAD-kROdWmtsnNBBlmw9X2xPzL07SP79tg-VqtmCojdJVsYM_-Wo6nWghazMXHHNFUZwmL-G8Uj4CeNuRsn5NMEGuUNSRc6imWnQmsb9_YQa8PykLTORk0xDdFIqzxoqAaWABKXNrqJLKi7a3Utt5JslbsFN-J5vPd9j0gpuYNYVfTwAobMtWhpGI0FzhjR221TgjREbFkkGbi3gMkPW7_UwzdEroxOPKh2CEpEyEM1riE85q_5g7ubOdMtKqsJbCTpaQUAx64OSKUxLLQ1Ir5ej7oXYVn41OsT57DWJ65X2738iLDeRhPQBSRZqqNjgfhTCGiG9bzAv0cQFfLzb_T8BJGSEjDb-NsQJZOP3CUkKUCCPQY2quHukXGgZyIrSH5pvawOeZuPVJq4TvN5GJP81TZ9raT8ZWGUU9bWtyfPUB6QfLyOu8eX-4JFvDVlzgRUTxMAlbKPyOimREscoZAymX2YFP8BrMvPTCV70VGeufAyG6tGTcFU7Or4buH3L2bZPEfEyL7HC5UyhRGhtB5Q-dc3RF5JmWyNzJmIllBLGiNuodHOkfLofPvHbz1KjCjznNcPBmUHI3Trrlr1y8BWEZq3Eoy_e5DVs7MkDWRFgeD1F9gmwA4KQHlBmG_RYNG1qUx5Zo5=w3258-h1832-no?authuser=0"
+                alt="project"
+              />
 
-        <a
-          href="https://codepen.io/nickcarlisi/full/rNMvrBj"
-          target="_blank"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://lh3.googleusercontent.com/OqKil_G8kRxs9EbB-26PUCT1PB44ueho0pm1Kn77rDDlg7bLLOpAD-kROdWmtsnNBBlmw9X2xPzL07SP79tg-VqtmCojdJVsYM_-Wo6nWghazMXHHNFUZwmL-G8Uj4CeNuRsn5NMEGuUNSRc6imWnQmsb9_YQa8PykLTORk0xDdFIqzxoqAaWABKXNrqJLKi7a3Utt5JslbsFN-J5vPd9j0gpuYNYVfTwAobMtWhpGI0FzhjR221TgjREbFkkGbi3gMkPW7_UwzdEroxOPKh2CEpEyEM1riE85q_5g7ubOdMtKqsJbCTpaQUAx64OSKUxLLQ1Ir5ej7oXYVn41OsT57DWJ65X2738iLDeRhPQBSRZqqNjgfhTCGiG9bzAv0cQFfLzb_T8BJGSEjDb-NsQJZOP3CUkKUCCPQY2quHukXGgZyIrSH5pvawOeZuPVJq4TvN5GJP81TZ9raT8ZWGUU9bWtyfPUB6QfLyOu8eX-4JFvDVlzgRUTxMAlbKPyOimREscoZAymX2YFP8BrMvPTCV70VGeufAyG6tGTcFU7Or4buH3L2bZPEfEyL7HC5UyhRGhtB5Q-dc3RF5JmWyNzJmIllBLGiNuodHOkfLofPvHbz1KjCjznNcPBmUHI3Trrlr1y8BWEZq3Eoy_e5DVs7MkDWRFgeD1F9gmwA4KQHlBmG_RYNG1qUx5Zo5=w3258-h1832-no?authuser=0"
-            alt="project"
-          />
-
-          <p class="project-title">Project 6</p>
-        </a>
+              <p class="project-title">Project 6</p>
+            </a>
+          </div>
+          </article>
+        </div>
       </div>
-    </section>
 
-    <section id="social-links">
-      <h2>Git in touch...</h2>
-      <div id="contact-links">
-        <a
-          href="https://github.com/nickcarlisi"
-          target="_blank"
-          id="profile-link"
-          ><i class="fab fa-github"></i>GitHub</a
-        >
-        <a href="https://www.linkedin.com/in/nicholascarlisi/" target="_blank"
-          ><i class="fab fa-linkedin-in"></i>LinkedIn</a
-        >
-        <a href="https://codepen.io/nickcarlisi" target="_blank"
-          ><i class="fab fa-codepen"></i>CodePen</a
-        >
+
+      <div id="contact">
+        <div class="container">
+          <h2>Get in touch...</h2>
+          <i class="far fa-envelope"></i>
+          <p>nickcarlisi80@gmail.com</p>
+
+          <ul id="social-links">
+            <div class="social">
+            <li>
+              <a
+              href="https://github.com/nickcarlisi"
+              target="_blank"
+              id="profile-link"
+              ><i class="fab fa-github"></i>
+              </a
+            >
+            </li>
+          </div>
+            <li>
+              <a
+              href="https://www.linkedin.com/in/nicholascarlisi/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i></a
+            >
+            </li>
+            <li>
+              <a href="https://codepen.io/nickcarlisi" target="_blank"
+              ><i class="fab fa-codepen"></i>
+              </a
+            >
+            </li>
+            
+          </ul>
+        </div>
       </div>
-      <p><i class="far fa-envelope"></i> nickcarlisi80@gmail.com</p>
-    </section>
+    </main>
 
-    <footer>Site by Nick Carlisi &copy; 2021</footer>
+    <footer>
+      <p>Site by Nick Carlisi &copy; 2021</p>
+    </footer>
+    <script src="app.js"></script>
   </body>
 </html>
